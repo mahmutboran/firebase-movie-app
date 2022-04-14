@@ -21,21 +21,21 @@ import {
 //* https://console.firebase.google.com/ => project settings
 const firebaseConfig = {
 
-    // apiKey: process.env.REACT_APP_apiKey,
-    // authDomain: process.env.REACT_APP_authDomain,
-    // projectId: process.env.REACT_APP_projectId,
-    // storageBucket: process.env.REACT_APP_storageBucket,
-    // messagingSenderId: process.env.REACT_APP_messagingSenderId,
-    // appId: process.env.REACT_APP_appId,
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId,
 
 
-    apiKey: "AIzaSyDFOKyRfuM40883VtcF-QDkPgsJLwmfBzk",
-    authDomain: "inclass-59e08.firebaseapp.com",
-    databaseURL: "https://inclass-59e08-default-rtdb.firebaseio.com",
-    projectId: "inclass-59e08",
-    storageBucket: "inclass-59e08.appspot.com",
-    messagingSenderId: "673684559725",
-    appId: "1:673684559725:web:d14fdf0d03795de3c56c64"
+    // apiKey: "AIzaSyDFOKyRfuM40883VtcF-QDkPgsJLwmfBzk",
+    // authDomain: "inclass-59e08.firebaseapp.com",
+    // databaseURL: "https://inclass-59e08-default-rtdb.firebaseio.com",
+    // projectId: "inclass-59e08",
+    // storageBucket: "inclass-59e08.appspot.com",
+    // messagingSenderId: "673684559725",
+    // appId: "1:673684559725:web:d14fdf0d03795de3c56c64"
 };
 
 
